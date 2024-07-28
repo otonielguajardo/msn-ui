@@ -10,7 +10,7 @@
 						<img src="/assets/images/icons/unfold-more-horizontal.svg" width="16" />
 					</span>
 					<span style="max-width: 40px;" class="p-0.5 mr-2">
-						<img src="./assets/images/logos/msn.svg" />
+						<img src="/assets/images/logos/msn.svg" />
 					</span>
 					<div class="text-xs font-bold">Messenger</div>
 				</div>
