@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './utilities.css';
+@import './toggle.css';
+
+body {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}

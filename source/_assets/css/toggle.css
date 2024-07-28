@@ -1,0 +1,10 @@
+.toggle {
+  visibility: hidden;
+}
+.toggle + label {
+  position: relative;
+  bottom: 20px;
+}
+.toggle + label > * {
+  position: absolute;
+}
