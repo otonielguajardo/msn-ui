@@ -1,0 +1,47 @@
+.bg-gradient-to-t.from-blue-gray-100.via-transparent {
+  background: linear-gradient(to top, #f1f5f9, transparent);
+}
+
+.bg-gradient-to-b.from-blue-gray-50.to-blue-gray-300 {
+  background: linear-gradient(to bottom, #f8fafc, #cbd5e1);
+}
+
+.bg-gradient-to-b.from-blue-gray-300.via-transparent {
+  background: linear-gradient(to bottom, #cbd5e1, transparent);
+}
+
+.bg-gradient-to-b.from-blue-gray-200.via-blue-gray-50.to-blue-gray-200 {
+  background: linear-gradient(to bottom, #e2e8f0, #f8fafc, #e2e8f0);
+}
+
+.bg-gradient-to-b.from-blue-gray-100.via-transparent {
+  background: linear-gradient(to bottom, #f8fafc, transparent);
+}
+
+.bg-gradient-to-t.from-blue-gray-100.via-transparent {
+  background: linear-gradient(to top, #f8fafc, transparent);
+}
+
+.bg-gradient-to-t.from-blue-gray-300.via-transparent.to-transparent {
+  background: linear-gradient(to top, #cbd5e1, transparent, transparent);
+}
+
+.text-blue-gray-500 {
+  color: #64748b;
+}
+
+.bg-blue-gray-100 {
+  background-color: #f8fafc;
+}
+
+.border-blue-gray-500 {
+  border-color: #64748b;
+}
+
+.border-blue-gray-300 {
+  border-color: #cbd5e1;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
