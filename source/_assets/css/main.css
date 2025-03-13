@@ -8,3 +8,7 @@
 body {
   font-family: Tahoma, Arial, Helvetica, sans-serif;
 }
+
+#msn-window{
+    position: absolute;
+}

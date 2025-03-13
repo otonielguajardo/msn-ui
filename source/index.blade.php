@@ -4,8 +4,8 @@
 <div id="desktop" style="background-image: url('{{ url('/assets/images/wallpaper.jpg')  }}');" class="p-5 bg-cover h-screen flex items-center">
 	<div id="msn-window" style="width:400px" class="rounded-md p-0.5 bg-gradient-to-b from-blue-gray-200 via-blue-gray-50 to-blue-gray-200 shadow mx-auto h-min">
 		<div id="msn-window-header" class="cursor-default">
-			<div id="msn-window-header-menu" class="rounded-md flex justify-between items-center mb-2 bg-gradient-to-b from-blue-gray-300 via-transparent to-transparent">
-				<div class="flex">
+			<div id="msn-window-header-menu" class="cursor-move rounded-md flex justify-between items-center mb-2 bg-gradient-to-b from-blue-gray-300 via-transparent to-transparent">
+				<div class="flex cursor-default">
 					<span class="flex rounded-full border border-blue-gray-300 mr-1 bg-blue-gray-100">
 						<img src="{{ url('/assets/images/icons/unfold-more-horizontal.svg') }}" width="16" />
 					</span>
@@ -14,7 +14,7 @@
 					</span>
 					<div class="text-xs font-bold">Messenger</div>
 				</div>
-				<div class="flex mr-1 text-blue-gray-500">
+				<div class="flex cursor-default mr-1 text-blue-gray-500">
 					<img src="{{ url('/assets/images/icons/window-minimize.svg') }}" width="13" />
 					<img src="{{ url('/assets/images/icons/window-maximize.svg') }}" width="13" />
 					<img src="{{ url('/assets/images/icons/close-thick.svg') }}" width="13" />

@@ -9,6 +9,7 @@ mix.jigsaw()
         require('postcss-import'),
         require('tailwindcss'),
     ])
+    .js('source/_assets/js/main.js', 'js')
     .options({
         processCssUrls: false,
     })
