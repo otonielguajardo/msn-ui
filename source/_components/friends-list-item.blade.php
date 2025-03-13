@@ -9,11 +9,11 @@
   <td class="pr-1.5">
     @if (!empty($display))   
       <div class="w-3">
-        <img src="{{ $display }}" class="rounded-sm" />
+        <img src="{{ url($display) }}" class="rounded-sm" />
       </div>
     @else
       <div class="w-3">
-        <img src="/assets/images/emoticons/user.png" />
+        <img src="{{ url('/assets/images/emoticons/user.png') }}" />
       </div>
     @endif
   </td>
@@ -23,7 +23,7 @@
     @if (!empty($listening))    
       <span class="ml-1.5 flex">
         <div class="w-3 mr-1 self-center">
-          <img src="/assets/images/emoticons/headphones.png" />
+          <img src="{{ url('/assets/images/emoticons/headphones.png') }}" />
         </div>
         <a href="#" class="text-blue-500 underline">{{ $listening }}</a>
       </span>

@@ -7,7 +7,7 @@
 
 <div class="flex p-0.5 bg-gradient-to-t from-blue-gray-100 via-transparent rounded">
   <div class="mr-2">
-    <img style="width: 60px" src="{{ $display }}" class="rounded border border-blue-gray-100" />
+    <img style="width: 60px" src="{{ url($display) }}" class="rounded border border-blue-gray-100" />
   </div>
   <div>
     <div class="flex">
@@ -19,20 +19,20 @@
     </div>
     <div class="text-xs flex">
       <div class="w-3 mr-1 self-center">
-        <img src="/assets/images/emoticons/headphones.png" />
+        <img src="{{ url('/assets/images/emoticons/headphones.png') }}" />
       </div>
       <a href="#" class="text-blue-500 underline">{{ $listening }}</a>
     </div>
     <div class="text-xs mt-1 flex cursor-default">
       <div class="mr-3 flex items-center">
         <div class="w-3 mr-1">
-          <img src="/assets/images/emoticons/email.png" />
+          <img src="{{ url('/assets/images/emoticons/email.png') }}" />
         </div>
         <span>(2)</span>
       </div>
       <div class="mr-3 flex">
         <div class="w-3 mr-1 self-center">
-          <img src="/assets/images/emoticons/users.png" />
+          <img src="{{ url('/assets/images/emoticons/users.png') }}" />
         </div>
         <span>My Space</span>
       </div>
